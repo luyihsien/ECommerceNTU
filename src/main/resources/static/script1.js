@@ -30,7 +30,7 @@ productGrid.appendChild(productCard);
     // Add an event listener to the "Add to Cart" button
 const addToCartButton = productCard.querySelector(".add-to-cart");
 addToCartButton.addEventListener("click", () => {
-alert("測試");
+alert("你好");
 addToCart(product);
 });
 
